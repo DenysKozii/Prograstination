@@ -1,5 +1,13 @@
 # Prograstination
 
+URL with website:
+194.5.159.164
+
+Heroku:
+https://grecha-back.herokuapp.com/swagger-ui.html
+
+
+
 To build the project following requirements should be met:
 * Installed Oracle JDK 8
 

@@ -43,7 +43,7 @@ public class ProductServiceImpl implements ProductService {
         destination.setCategoryId(source.getCategoryId());
         destination.setEan(source.getEan());
         destination.setImg(ImgDto.of(source.getImage()));
-//        destination.setPrices(source.getPrices());
+        destination.setPrice(source.getPrice());
         destination.setWebUrl(source.getWebUrl());
         destination.setTitle(source.getTitle());
         destination.setWeight(source.getWeight());

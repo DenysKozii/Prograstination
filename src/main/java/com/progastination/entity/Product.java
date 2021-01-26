@@ -29,6 +29,8 @@ public class Product {
     private String webUrl;
     private Integer weight;
     private String unit;
+    private Integer price;
+
     @ManyToOne
     private Category category; // parentCategoryId
 

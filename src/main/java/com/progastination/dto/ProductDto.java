@@ -16,7 +16,7 @@ public class ProductDto {
     private ImgDto img;
     private String imgUrl;
     private String shop;
-    private Double price;
+    private Integer price;
     private Map<Shop, Integer> prices;
     private String title;
     private String webUrl;

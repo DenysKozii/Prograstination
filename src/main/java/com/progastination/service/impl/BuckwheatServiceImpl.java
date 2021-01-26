@@ -56,7 +56,7 @@ public class BuckwheatServiceImpl implements BuckwheatService {
         product.setShop(title);
         product.setWebUrl(url);
         Elements elements = document.getElementsByAttributeValueContaining(CLASS, price);
-        product.setPrice(Double.valueOf(elements.get(0).text().replaceAll(LETTER_PATTERN, "")));
+        product.setPrice(Integer.valueOf(elements.get(0).text().replaceAll(LETTER_PATTERN, "")));
         return product;
     }
 }

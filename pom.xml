@@ -85,7 +85,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.com.progastination.BuckwheatSeeker</mainClass>
+                            <mainClass>com.progastination.BuckwheatSeeker</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

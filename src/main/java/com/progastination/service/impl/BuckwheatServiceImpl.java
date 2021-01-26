@@ -52,7 +52,7 @@ public class BuckwheatServiceImpl implements BuckwheatService {
     private ProductDto getProduct(String url, String img, String title, String price) throws IOException {
         Document document = Jsoup.connect(url).get();
         ProductDto product = new ProductDto();
-        product.setImg_url(img);
+        product.setImgUrl(img);
         product.setShop(title);
         product.setWebUrl(url);
         Elements elements = document.getElementsByAttributeValueContaining(CLASS, price);

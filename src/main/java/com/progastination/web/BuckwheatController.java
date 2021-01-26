@@ -11,6 +11,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @AllArgsConstructor
+@CrossOrigin(origins = "*")
 @RequestMapping("/buckwheat")
 public class BuckwheatController {
     private final BuckwheatService buckwheatService;

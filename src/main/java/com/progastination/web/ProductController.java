@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @RestController
 @AllArgsConstructor
+@CrossOrigin(origins = "*")
 @RequestMapping("/products")
 public class ProductController {
     private final ProductService productService;
